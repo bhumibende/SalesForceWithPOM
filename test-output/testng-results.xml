@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[https://login.salesforce.comis entered]]>
+    </line>
+    <line>
+      <![CDATA[Login Page Title Verified]]>
+    </line>
+    <line>
+      <![CDATA[UserName entry verified]]>
+    </line>
+    <line>
+      <![CDATA[Password field clear verified]]>
+    </line>
+    <line>
+      <![CDATA[Error message for login page missing password verified]]>
+    </line>
+    <line>
+      <![CDATA[browser instance closed]]>
+    </line>
+    <line>
+      <![CDATA[https://login.salesforce.comis entered]]>
+    </line>
+    <line>
+      <![CDATA[Login Page Title Verified]]>
+    </line>
+    <line>
+      <![CDATA[Login verified. Salesforce Home Page Title Verified post login.]]>
+    </line>
+    <line>
+      <![CDATA[browser instance closed]]>
+    </line>
+    <line>
+      <![CDATA[https://login.salesforce.comis entered]]>
+    </line>
+    <line>
+      <![CDATA[Login Page Title Verified]]>
+    </line>
+    <line>
+      <![CDATA[Login verified. Salesforce Home Page Title Verified post login.]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Remember username verified post logout]]>
+    </line>
+    <line>
+      <![CDATA[browser instance closed]]>
+    </line>
+    <line>
+      <![CDATA[https://login.salesforce.comis entered]]>
+    </line>
+    <line>
+      <![CDATA[Login Page Title Verified]]>
+    </line>
+    <line>
+      <![CDATA[Error message for login page with incorrect credentials verified]]>
+    </line>
+    <line>
+      <![CDATA[browser instance closed]]>
+    </line>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="25566" started-at="2024-02-20T11:58:52 EST" finished-at="2024-02-20T11:59:17 EST">
+    <groups>
+    </groups>
+    <test name="RegressionTest" duration-ms="25566" started-at="2024-02-20T11:58:52 EST" finished-at="2024-02-20T11:59:17 EST">
+      <class name="com.bhumi.SampleMaven.AutomationTests.TC03">
+        <test-method status="PASS" signature="setUpBeforeMethod(java.lang.String,org.testng.ITestResult)[pri:0, instance:com.bhumi.SampleMaven.AutomationTests.TC03@6340e5f0]" name="setUpBeforeMethod" is-config="true" duration-ms="2341" started-at="2024-02-20T11:59:05 EST" finished-at="2024-02-20T11:59:07 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC03.loginErrorMessage3()[pri:0, instance:com.bhumi.SampleMaven.AutomationTests.TC03@6340e5f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[https://login.salesforce.comis entered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method status="PASS" signature="loginErrorMessage3()[pri:0, instance:com.bhumi.SampleMaven.AutomationTests.TC03@6340e5f0]" name="loginErrorMessage3" duration-ms="5310" started-at="2024-02-20T11:59:07 EST" finished-at="2024-02-20T11:59:12 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page Title Verified]]>
+            </line>
+            <line>
+              <![CDATA[Login verified. Salesforce Home Page Title Verified post login.]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successfull]]>
+            </line>
+            <line>
+              <![CDATA[Remember username verified post logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginErrorMessage3 -->
+        <test-method status="PASS" signature="tearDownAfterTestMethod()[pri:0, instance:com.bhumi.SampleMaven.AutomationTests.TC03@6340e5f0]" name="tearDownAfterTestMethod" is-config="true" duration-ms="662" started-at="2024-02-20T11:59:12 EST" finished-at="2024-02-20T11:59:13 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[browser instance closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- com.bhumi.SampleMaven.AutomationTests.TC03 -->
+      <class name="com.bhumi.SampleMaven.AutomationTests.TC02">
+        <test-method status="PASS" signature="setUpBeforeMethod(java.lang.String,org.testng.ITestResult)[pri:0, instance:com.bhumi.SampleMaven.AutomationTests.TC02@2794eab6]" name="setUpBeforeMethod" is-config="true" duration-ms="2654" started-at="2024-02-20T11:58:57 EST" finished-at="2024-02-20T11:59:00 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC02.loginErrorMessage2()[pri:0, instance:com.bhumi.SampleMaven.AutomationTests.TC02@2794eab6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[https://login.salesforce.comis entered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method status="PASS" signature="loginErrorMessage2()[pri:0, instance:com.bhumi.SampleMaven.AutomationTests.TC02@2794eab6]" name="loginErrorMessage2" duration-ms="4021" started-at="2024-02-20T11:59:00 EST" finished-at="2024-02-20T11:59:04 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page Title Verified]]>
+            </line>
+            <line>
+              <![CDATA[Login verified. Salesforce Home Page Title Verified post login.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginErrorMessage2 -->
+        <test-method status="PASS" signature="tearDownAfterTestMethod()[pri:0, instance:com.bhumi.SampleMaven.AutomationTests.TC02@2794eab6]" name="tearDownAfterTestMethod" is-config="true" duration-ms="644" started-at="2024-02-20T11:59:04 EST" finished-at="2024-02-20T11:59:05 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[browser instance closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- com.bhumi.SampleMaven.AutomationTests.TC02 -->
+      <class name="com.bhumi.SampleMaven.AutomationTests.TC01">
+        <test-method status="PASS" signature="setUpBeforeMethod(java.lang.String,org.testng.ITestResult)[pri:0, instance:com.bhumi.SampleMaven.AutomationTests.TC01@53aac487]" name="setUpBeforeMethod" is-config="true" duration-ms="3778" started-at="2024-02-20T11:58:52 EST" finished-at="2024-02-20T11:58:56 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC01.loginErrorMessage1()[pri:0, instance:com.bhumi.SampleMaven.AutomationTests.TC01@53aac487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[https://login.salesforce.comis entered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method status="PASS" signature="loginErrorMessage1()[pri:0, instance:com.bhumi.SampleMaven.AutomationTests.TC01@53aac487]" name="loginErrorMessage1" duration-ms="934" started-at="2024-02-20T11:58:56 EST" finished-at="2024-02-20T11:58:57 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page Title Verified]]>
+            </line>
+            <line>
+              <![CDATA[UserName entry verified]]>
+            </line>
+            <line>
+              <![CDATA[Password field clear verified]]>
+            </line>
+            <line>
+              <![CDATA[Error message for login page missing password verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginErrorMessage1 -->
+        <test-method status="PASS" signature="tearDownAfterTestMethod()[pri:0, instance:com.bhumi.SampleMaven.AutomationTests.TC01@53aac487]" name="tearDownAfterTestMethod" is-config="true" duration-ms="649" started-at="2024-02-20T11:58:57 EST" finished-at="2024-02-20T11:58:57 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[browser instance closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- com.bhumi.SampleMaven.AutomationTests.TC01 -->
+      <class name="com.bhumi.SampleMaven.AutomationTests.TC04">
+        <test-method status="PASS" signature="setUpBeforeMethod(java.lang.String,org.testng.ITestResult)[pri:0, instance:com.bhumi.SampleMaven.AutomationTests.TC04@45099dd3]" name="setUpBeforeMethod" is-config="true" duration-ms="3258" started-at="2024-02-20T11:59:13 EST" finished-at="2024-02-20T11:59:16 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC04.loginErrorMessage3()[pri:0, instance:com.bhumi.SampleMaven.AutomationTests.TC04@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[https://login.salesforce.comis entered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method status="PASS" signature="loginErrorMessage3()[pri:0, instance:com.bhumi.SampleMaven.AutomationTests.TC04@45099dd3]" name="loginErrorMessage3" duration-ms="510" started-at="2024-02-20T11:59:16 EST" finished-at="2024-02-20T11:59:17 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page Title Verified]]>
+            </line>
+            <line>
+              <![CDATA[Error message for login page with incorrect credentials verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginErrorMessage3 -->
+        <test-method status="PASS" signature="tearDownAfterTestMethod()[pri:0, instance:com.bhumi.SampleMaven.AutomationTests.TC04@45099dd3]" name="tearDownAfterTestMethod" is-config="true" duration-ms="631" started-at="2024-02-20T11:59:17 EST" finished-at="2024-02-20T11:59:17 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[browser instance closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- com.bhumi.SampleMaven.AutomationTests.TC04 -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
